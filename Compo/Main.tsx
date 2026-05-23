@@ -15,7 +15,7 @@ function HeroSection() {
             
             <div className='text-white flex flex-col gap-[10px] justify-center items-center bg-[#161b22] p-[10px] rounded-lg'>
                 
-                <h1 className='text-green-600 font-mono text-[30px]'>
+                <h1 className='text-green-600 font-mono text-[20px] text-center sm:text-[30px]'>
                     Stop writing "final_final_v2_fix"
                 </h1>
 
