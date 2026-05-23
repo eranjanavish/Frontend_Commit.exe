@@ -9,7 +9,7 @@ export default function InputCom() {
     e.preventDefault();
     
     try{
-      const response = await axios.get("http://localhost:3000",
+      const response = await axios.get("https://backend-six-hazel-67.vercel.app/",
         {
           params:{
             extype:type
