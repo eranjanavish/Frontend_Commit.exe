@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 export default function InputCom() {
-  const [msg,setMsg] = useState<string>("Do you need a commit?");
+  const [msg,setMsg] = useState<string>("Running out of creative lies for git history?");
   const [type,setType] = useState<string>("Any");
   const getData = async (e:any)=>{
     e.preventDefault();
@@ -93,7 +93,7 @@ export default function InputCom() {
                     active:scale-95
                     w-full
                     md:w-auto">
-            Click
+            Generate
             </button>
     
         </div>
